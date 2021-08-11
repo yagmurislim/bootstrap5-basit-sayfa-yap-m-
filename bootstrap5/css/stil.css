@@ -1,0 +1,38 @@
+.logo {
+    height: 60px;
+}
+
+.kapsayıcı {
+    background-color: #9DDFD3;
+    color: #070607;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.nav-link {
+    color: #2e0b02;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 992px) {
+    .kapsayıcı {
+        border-bottom-right-radius: 0%;
+        border-bottom-left-radius: 0%;
+    }
+    .nav-item {
+        margin-top: 10px;
+        transition: all.5s ease;
+    }
+    .nav-item:hover:not(.icon) {
+        background-color: cornflowerblue;
+        padding-left: 20px;
+    }
+    .nav-link:hover {
+        color: #001E6C;
+    }
+    .logo_border {
+        color: #F8485E;
+        margin-right: 20px;
+    }
+}
